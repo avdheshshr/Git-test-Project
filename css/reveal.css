@@ -1,0 +1,77 @@
+/*	--------------------------------------------------
+	Reveal Modals
+	-------------------------------------------------- */
+		
+.reveal-modal-bg { position: fixed; height: 100%; width: 100%; background: #000; background: rgba(0,0,0,.5);
+		z-index: 100; display: none; top: 0;left: 0; }
+.reveal-modal {		visibility: hidden; top: 100px;  left: 0; right: 0; /*margin-left: -300px;*/
+		max-width: 520px; margin: 0 auto 0 auto; width: 100%; background: #fff; 	position: absolute;	z-index: 101;
+		padding: 45px 50px 40px 50px;box-shadow: 0px 1px 50.49px 0.51px rgba(0, 0, 0, 0.25); 		}
+		
+.reveal-modal.small { width: 200px; margin-left: -140px;}
+.reveal-modal.medium { width: 400px; margin-left: -240px;}
+.reveal-modal.large { width: 600px; margin-left: -340px;}
+.reveal-modal.xlarge { width: 800px; margin-left: -440px;}
+
+.reveal-modal .close-reveal-modal { font-size: 22px; line-height: .5; position: absolute;top: 23px; right: 20px; color: #1a1a1a;	text-shadow: 0 -1px 1px rbga(0,0,0,.6);
+		font-weight: 800;	cursor: pointer; } 
+.reveal-modal .close-reveal-modal:hover { color: #0033ac; }
+
+.reveal-modal h2 { font-size: 24px; font-weight: 800; padding-bottom: 15px;  }
+.reveal-modal p { color: #808080; font-weight: 300; line-height: 23px; font-size: 16px; }
+.reveal-modal .form-list textarea{ height: 115px;  background: #d3d3d3; color: #808080; font-size: 14px; font-weight: 300; padding: 1.8vw; line-height: 20px; }
+.reveal-modal p.note { font-size: 12px; color: #808080;   font-style: normal; line-height: 19px; padding-bottom: 0; margin-bottom: 0; } 
+.reveal-modal .form-list label { font-size: 14px; font-weight: 400; padding-bottom: 10px; display: inline-block; }
+.reveal-modal .buttons-set { text-align: center; margin-top: 30px; margin-bottom: 25px;}
+.reveal-modal .btn-cmn { padding: 0 24px; }
+
+
+.reveal-modal.reveal-review .buttons-set{ margin-bottom: 0; }
+.reveal-modal.reveal-review p.note {  margin-bottom: 15px; }
+.reveal-review .rating-block{ margin-bottom: 11px; }
+
+.reveal-modal .form-list label{ font-weight: 500; padding-bottom: 7px; }
+.reveal-modal.mentor-help-drdwn .form-list > li { margin-bottom: 32px; }
+.reveal-modal .dropdown { background: #d3d3d3;  border: 1px solid #d3d3d3;}
+.reveal-modal .dropdown div { background: #c2c2c2; }
+.reveal-modal .dropdown .selected { padding: 14px 20px 14px; }
+.reveal-modal.mentor-help-drdwn .dropdown li { padding: 11px 0 10px; font-size: 12px; }
+.reveal-modal .dropdown li { color: #fff; border-bottom: 1px solid #fff; }
+.reveal-modal .dropdown li:hover { color: #808080; }
+.reveal-modal .dropdown div { border: none; border-radius: 0; }
+.reveal-modal .dropdown ul { margin: 0 5%;  width: 90%;  }
+.reveal-modal .dropdown li.focus { background: transparent; }
+.reveal-modal .dropdown li.active { font-weight: normal; }
+.reveal-modal .dropdown li:last-child { border-bottom: none; }
+
+.reveal-modal .dropdown .carat{/* border: 6px solid transparent;	border-top: 8px solid #575757; */ margin-top: -4px;    border: none;
+    background: url(../images/select-arrrow-down.png) no-repeat right center;
+    width: 12px;
+    height: 7px; }
+.reveal-modal .dropdown.open .carat{
+
+border: none;
+    background: url(../images/select-arrrow-up.png) no-repeat right center;
+    width: 12px;
+    height: 7px; 
+    margin-top: -4px;
+  /*	border-top: 6px solid transparent;	border-bottom: 8px solid #575757;*/}
+
+
+
+@media only screen and (max-width: 639px) { 
+		
+		.reveal-modal { width: 90%; padding: 4.5vw 5vw 4vw; }
+		.reveal-modal h2 { font-size: 17px; padding-bottom: 1.5vw; padding-right: 20px; padding-top: 20px;}
+		.reveal-modal .close-reveal-modal { font-size: 20px; top: 16px; }
+		.reveal-modal p { font-size: 14px; margin-bottom: 1.7vw; line-height: 18px; }
+		.reveal-modal .form-list textarea { height: 15vw; }
+		.reveal-modal .buttons-set {     margin-bottom: 2.5vw;    margin-top: 3vw; }
+
+		.reveal-modal .dropdown .selected { padding: 10px 20px; }
+
+		.reveal-modal.mentor-help-drdwn .form-list > li { margin-bottom: 3.2vw; }
+
+ }
+
+	

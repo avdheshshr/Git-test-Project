@@ -1,0 +1,824 @@
+@media screen and (min-width:240px) and (max-width:1169px) {
+body { -webkit-text-size-adjust: none; }
+input, textarea, button { appearance: none; -moz-appearance: none; -webkit-appearance: none; border-radius:0px;}
+input[type="radio"] { appearance: radio; -moz-appearance: radio; -webkit-appearance: radio; }
+input[type="checkbox"] { appearance: checkbox; -moz-appearance: checkbox; -webkit-appearance: checkbox; }
+
+.fixed-wrapper {width:100%;}
+.contact-cont, .forums-dtl-cont {padding:0 15px;}
+/*added j*/
+.data-table th { font-size: 16px;}
+.data-table td { font-size: 15px; }
+
+.page-banner { margin: 0 auto 5vw; }
+.container { padding: 0 15px; }
+
+/* Forumlist Page*/
+.forumlist-container .row { margin-bottom: 2.2vw;  } 
+.forumlist-container .row.title-row { padding-bottom: 1.5vw; margin-bottom: 3vw;}
+
+.forumlist-container article { margin: 0 0 3vw; padding: 0 0 2.6vw; }
+.forumlist-container .profile-pic { margin-right: 3.6vw; }
+.forumlist-container .post-desc { margin-right: 3.6vw; width: 69%; }
+
+/* Mentoraccount Page*/
+.mentor-container .profile-pic  {   margin-top: 5vw;  padding-right: 3vw;  width: 30%; margin-right: 0; text-align: center; }
+.mentor-container .profile-detail { margin-top: 5vw; width: 70%; }
+.profile-detail .skill-section { margin-bottom: 4vw; }
+.profile-detail .sort-desc {     margin-bottom: 1.5vw;    padding-bottom: 1.7vw; }
+.skill-section .row label {  width: 30%; padding-right: 3vw;}
+.skill-section .row .desc { width: 70%; }
+.review-desc .ratingDiv { margin-bottom: 2.2vw; }
+.reviews-section article { margin-right: 3%; width: 48.5%; min-height: 412px; margin-bottom: 3.5%; }
+.reviews-section .author-pic { width: 41%; padding-right: 2.6vw; margin-right: 0; }
+.reviews-section .review-desc { padding: 3.4vw 3vw 3.4vw 0; width: 59%; }
+.reviews-section .review-desc p {  padding-bottom: 2.2vw;  margin: 0 0 1.7vw; }
+/* Mentordashboard Page*/
+.leads-container { margin-bottom: 5vw; padding: 5vw 1vw;}
+.leads-container h2 { padding-bottom: 1.6vw; }
+.leads-container p.note { padding-bottom: 3.4vw; }
+.welcome-block h4 { padding-bottom: 1.7vw; }
+.data-table.leads-data td { padding: 16px 0px; }
+
+.welcome-container { padding-top: 5vw; }
+.welcome-container .welcome-block { margin-bottom: 4.7vw; width: 600px; }
+.tabing-section { margin-bottom: 5vw; }
+.tabing-section ul.tabs li { padding: 1.2vw 1vw 1.3vw;}
+
+/* Accordian Panel*/
+.acc-tab .tab-inner-cont { padding: 2.5vw 0; }
+.acc-tab h2.resp-accordion { padding: 2.0vw 2.4vw !important; }
+
+.tab-inner-cont .desc p { margin-bottom: 1.6vw; }
+.tab-inner-cont .desc span { padding-bottom: 0.8vw; }
+
+.acc-tab h2.resp-accordion .resp-arrow { right: 2.5vw; }
+.acc-tab h2.resp-accordion.resp-tab-active .resp-arrow { right: 2.5vw; }
+
+.acc-tab h2.resp-accordion .resp-arrow {   margin-top: 3px;  border-left: 1.0vw solid transparent;
+border-right: 1.0vw solid transparent;   border-top: 1.4vw solid #6e7070;    position: absolute;  right: 2.5vw; }
+
+.acc-tab h2.resp-accordion.resp-tab-active .resp-arrow {      border-left: 1.0vw solid transparent;   border-right: 1.0vw solid transparent;
+border-bottom: 1.4vw solid #6e7070;    position: absolute; right: 2.5vw;}
+
+/*added b*/
+.regi-wrap .fixed-wrapper{ width:94%; padding: 25px 50px;}
+.regi-wrap .fixed-wrapper.step4{ width:94%;}
+.regi-wrap .fixed-wrapper.step4.user-step3{ width:94%;}
+.regi-cont .regi-cont-lt{width:42%;}
+.regi-cont .regi-cont-rt{ margin-right:0;width:54%;}
+.regi-cont .regi-cont-text {min-height: 180px;}
+
+/*added css d*/
+.regi-wrap .usrmntroseln-page.fixed-wrapper{ width:94%; padding: 25px 25px;}
+.searchresults-rgt .search-desc{width: 68%; margin-left:0;}
+.artcl-dtl-cont ul{margin-left:5px;}
+.artcl-dtl-cont ol {position:relative; left:5px;}
+
+}
+
+@media only screen and (max-width: 1023px) {
+
+.data-table col{ display: none;}
+.data-table {border: 0;}
+.data-table thead {display: none;}
+.data-table tr {margin-bottom: 10px;display: block;
+border-bottom: 2px solid #b6b6b6;}
+.data-table td {display: block;text-align: right;font-size: 14px;border-bottom: 1px dotted #ccc;margin-right: 0;padding: 10px 0px;line-height: 22px;}
+.data-table .no-border { display: none; }
+.data-table .button { padding-top: 0; }
+.data-table td:last-child {border-bottom: 0;}
+.data-table td:before {content: attr(data-label);float: left;text-transform: uppercase;font-weight: bold;}
+.list-style li  { font-size: 16px; }
+
+/* UserRequest Page*/
+.data-table.request-data td:last-child { text-align: right; }
+
+/* Forumlist Page*/
+.search-section { max-width: 50%; }
+.search-section li { max-width: 48%; }
+.search-section .form-list > li:last-child { max-width: 48%; }
+
+.forumlist-container h2 { font-size: 22px; }
+.post-desc h3 { font-size: 22px; }
+.forumlist-container article p { font-size: 17px; line-height: 26px; }
+.forumlist-container .post-desc { width: 60%; } 
+
+/* Mentoraccount Page*/
+.personal-info h2 { font-size: 26px; }
+.personal-info .company-name { font-size: 18px; }
+.profile-detail .personal-info .location { font-size: 16px; }
+.reviews-section article { min-height: 470px; }
+.reviews-section h2 { font-size: 20px; }
+.reviews-section .review-desc p { line-height: 24px; }
+
+.skill-section .row .desc p { font-size: 16px; }
+.skill-section .row label { font-size: 16px; }
+
+/* Mentordashboard Page*/
+.container.mdashboard-container { padding-right: 0; padding-left: 0; }
+.welcome-container { padding-right: 15px; padding-left: 15px;  }
+.leads-container { padding-right: 15px; padding-left: 15px; }
+.welcome-block h4 { font-size: 22px; }
+.welcome-container .welcome-block { width: 55%; }
+.welcome-block p { font-size: 16px; line-height: 24px; }
+.tabing-section .filter-by label { font-size: 14px; }
+.tabing-section ul.tabs li span { font-size: 14px; }
+.welcome-container .help { font-size: 13px;   width: 40%; } 
+.leads-container h2 { font-size: 22px; } 
+
+/* Accordian Panel*/
+.acc-tab .acc-title .month { font-size: 15px; }
+.acc-tab .acc-title .amount { font-size: 15px; }
+
+.acc-tab h2.resp-accordion .month { font-size: 14px; }
+.acc-tab h2.resp-accordion .amount { font-size: 14px; }
+
+.tab-inner-cont .sub-title span { font-size: 15px; }
+.tab-inner-cont .desc span { font-size: 15px; }
+
+
+/*added b*/
+.regi-wrap .form-list li.fields .field.user-site{width:100%;}
+.regi-wrap .form-list li.fields .field.full-width{width:100%;}
+.regi-wrap .form-list li.fields .field.top-padd{ margin-top:36px;}
+
+/*search page css*/
+.searchresults-lft{ width:100%}
+.searchresults-rgt{ width:100%;}
+.searchresults-lft .intere-title{ text-align:center;}
+.searchresults-lft .btn-cmn.red-btn{ width:auto;}
+.search-col{ width:25%; padding-right:10px;}
+.search-col:last-child{padding-right:0;}
+.user-step3 .user-stp3-lft{ width:100%; margin-bottom:0;}
+.user-step3 .user-stp3-rgt{width:100%;}
+.regi-wrap .user-stp3-lft .form-list li.fields .field.user-site{ width:48.5%;}
+
+/*added css d*/
+/*signin*/
+.frm-login { width:100%;}
+.login-page .btn-lgn{ margin-top: 20px;}
+.need-tx {margin-top: 20px;}
+.frm-login { padding: 20px 0 0;}
+
+/*user-mentorselection*/
+.usr-sectn{ width: 340px; padding: 25px 0 0;}
+
+/*user-registrationpopup*/
+.usr-regsrtinpup .checkbox{ margin-right: 2px; line-height: 18px;}
+.usr-regsrtinpup .frgt-row a{ font-size:14px;}
+.usr-regsrtinpup .frgt-row .checkbox label{ font-size:14px;}
+
+/*men-registration-step3*/
+.stp3-lft{width:100%;}
+.stp3-rgt {margin: 14px 0 20px; width: 100%;}
+.stp3-rgt .lft-chckbx{ width:50%;}
+.ad-photo{ margin-top: 5px;}
+.prsnl-prfl{ padding-bottom: 10px;}
+.brws-cl{ margin-top: 0;}
+
+.page-banner h1 {font-size:18px;}
+
+.mentors-page .page-banner .banner-detail p {width:100%;}
+
+}
+
+
+@media screen and (min-width:240px) and (max-width:767px) {
+h1 {font-size:22px;}
+h2 {font-size:20px;}
+h3 {font-size:18px;}
+header {position:static;}
+#mid-wrapper {margin-top:0px;}
+.emp-rgt-cont, .find-ment-rgt, .help-rgt, .footer-lft {width:100%;}
+.help-img-lft {text-align:center; width:100%;}
+.find-ment-rgt {margin:0;}
+.navbar-toggle {background:url(../images/toggle-nav.png) no-repeat center center #1947b4; width:32px; height:20px; float:left; display:inline-block; cursor:pointer; padding:23px 31px;}
+nav ul {margin:0;}
+.header-nav ul li {float:none; display:block; margin:0;}
+.header-nav ul li a {background:#fff; border-bottom:1px solid #c8c8c8; padding:8px 15px; margin:0; line-height:normal; display:block; font-size:14px; line-height:normal;}
+.header-nav ul li:last-child a{border-bottom:none;}
+.header-nav nav {display:none;}
+.header-nav {position:relative;}
+.header-nav nav {position:absolute; top:46px; left:0; background:#fff; width:100%; z-index:2;}
+.logo {width:220px; margin:15px auto 0 auto; float:none;}
+.top-rgt {margin-top:10px; width:100%; text-align:center;}
+.top-rgt a {margin:0 0 5px 0; padding:0 10px; font-size:12px; line-height:30px;}
+.logo-btn-row {padding-bottom:8px;}
+.rgt-search {float:right; width:auto; margin-top:0px; position:static;}
+.rgt-search input[type="text"]{background:#fff; border:1px solid #fff; height:35px;}
+.rgt-search form{display:none; position:absolute; top:46px; left:0; width:100%; z-index:2; background:#808080; padding:10px 15px;}
+.search-toggle {background:url(../images/search-toggle.png) no-repeat center center #808080; padding:23px 30px; display:inline-block; cursor:pointer; float:right;}
+.search-btn-icon {right: 12px;top: 24px;}
+.home-abt-sec {padding:20px 15px;}
+.col-home-abt {width:100%; margin:0;}
+.col-home-abt-cont {margin:0; text-align:center;}
+.home-abt-img {min-height:inherit;}
+.resource-col .home-abt-img img {margin:0px;}
+.ment-col .home-abt-img img {margin-top:0px;}
+.forums-col .col-home-abt-cont {margin-top:-15px;}
+.home-atcl-sec {padding:20px 15px;}
+.emp-col {width:100%; margin:0 0 10px 0;}
+.tabs-cmn {border-top:1px solid #c1c1c1;}
+.emp-rgt-cont p {font-size:16px; line-height:normal;}
+.emp-img-lft {margin-bottom:5px;}
+.emp-col ul li a {font-size:16px;}
+.emp-col ul li {margin-bottom:10px;}
+.btn-view-all {font-size:14px;}
+.emp-dtl-col-row .btn-center-div {margin-top:0; margin-bottom:10px;}
+.tab-inner-cont {border:1px solid #c1c1c1; border-top:none; margin-bottom:10px;}
+h2.resp-tab-active {border-bottom:1px solid #c1c1c1 !important;}
+.home-tabs-atical h2.resp-tab-active { background-color:#fff !important;}
+.find-rgt-ment-sec {padding:20px 15px;}
+.find-mnt-lft h2 {font-size:20px;}
+.find-mnt-lft {width:100%;}
+.find-mnt-lft h1 {font-size:35px;}
+.find-mnt-lft h1 span {font-size:30px;}
+.find-ment-rgt p {font-size:16px; line-height:normal;}
+.menters-row {margin-top:10px;}
+.menters-row ul li {width:100%; margin:0 0 0px 0;}
+.helpus-sec {padding:20px 15px;}
+.help-rgt h2 {font-size:20px;}
+.help-rgt p {line-height:normal;}
+.helpus-sec .btn-center-div {margin-top:10px;}
+.our-insp-mission {padding:20px 15px;}
+.our-insp-col {width:100%; padding:0;}
+.mission-col {border:none; border-top: 5px solid #ffffff; padding:15px 0 0 0; margin-top:15px;}
+.our-insp-col p {width:100%;}
+.our-insp-col h1 {font-size:24px; margin-bottom:5px;}
+footer {padding:15px;}
+.footer-lft ul li {float:none; display:inline-block; margin:0 5px;}
+.footer-lft ul {text-align:center;}
+.footer-lft p {text-align:center; line-height:normal; font-size:13px;}
+.footer-rgt {width:100%; text-align:center; padding-top:15px; border-top:1px solid #c8c8c8; margin-top:15px;}
+.footer-rgt p {text-align:center;}
+
+/*artical detail page css*/
+.artical-page {padding:20px 0 0 0;}
+.artical-row-1 {padding:0 15px;}
+.articale-lft h1 {font-size:20px;}
+.articale-lft {width:100%;}
+.writter-name {font-size:16px;}
+.artcl-share-row {margin:15px 0; padding:10px 0 5px 0;}
+.editer-style p {line-height:24px; font-size:16px;}
+.editer-style h2 {font-size:20px; margin-bottom:10px;}
+.artcl-dtl-cont img {margin-right:0px; width:100%;}
+.editer-style ol, .editer-style ul {margin-bottom:20px;}
+.editer-style ul li, .editer-style ol li {font-size:16px; margin-bottom:10px;}
+.articale-rgt {width:100%;}
+.contct-mentor-box {padding:20px; margin-bottom:30px;}
+.about-artcl-list h2 {font-size:20px;}
+.about-artcl-list h3 {font-size:18px;}
+ul.arrow-list-cmn li a {font-size:16px;}
+ul.arrow-list-cmn li {margin-bottom:10px;}
+.tips-rescrc-row {padding:20px 15px;}
+.tips-col, .resrc-col {width:100%;}
+.red-social a {margin-left:2px;}
+.artcl-share-row strong {margin-right:5px;}
+.contct-mentor-box strong {text-align:center;}
+
+/*contact page css*/
+.contact-rgt, .contact-lft {width:100%;}
+.col-50 {margin-bottom:10px;}
+.col-50, .col-50-r {width:100%;}
+.btn-send {float:left;}
+
+/*forums detail page css*/
+.btn-back-row {margin-bottom:15px;}
+.frums-dtl-img {width:100%; margin:0; text-align:center;}
+.frums-dtl-cont {width:100%; text-align:center; margin:0;}
+.forums-dtl-list-row {padding:20px 0;}
+.forums-dtl-list-row h2 {font-size:20px;}
+.frums-dtl-cont p {font-size:16px; line-height:24px;}
+.frums-dtl-cont .red-btn{line-height:normal; padding:10px;}
+.frums-dtl-rgt {width:100%; margin:15px 0 0 0; text-align:center;}
+.frums-dtl-cont .btn-center-div {margin-bottom:20px;}
+.reply-inner-forums {width:100%;}
+.btn-post {float:left;}
+
+/*added j*/
+.search-section { max-width: 100%; }
+.search-section .form-list label { font-size: 14px; }
+.page-banner { height: 180px; }
+.page-banner img {   margin: 0 -45%; } 
+
+/* Forumlist Page*/
+.post-desc h3 { font-size: 20px; }
+.forumlist-container h2 { font-size: 20px; }
+.forumlist-container h2 { padding-bottom: 8px; padding-top: 0; }
+.forumlist-container .post-desc { width: 54%; }
+.forumlist-container article p {     font-size: 16px;  line-height: 24px;  }
+
+/* Mentoraccount Page*/
+.reviews-section article { min-height: inherit; width: 100%; margin-right: 0; }
+.reviews-section .author-pic { width: 31%; }
+.reviews-section .review-desc { width: 69%; }
+.personal-info h2 { font-size: 24px; }
+.profile-detail .personal-info p { font-size: 16px; }
+.profile-detail .personal-info .location { font-size: 15px; }
+.profile-detail .ratingDiv p { font-size: 13px; }
+
+.skill-section .row label { font-size: 14px; }
+
+/* Mentordashboard Page*/
+.welcome-block h4 { font-size: 20px; }
+.welcome-container .welcome-block { width: 55%; }
+.welcome-block p { font-size: 14px; line-height: 22px; }
+.leads-container h2 { font-size: 20px;}
+
+/* Accordian Panel*/
+.tabs-cmn.acc-tab { border: none; }
+.acc-tab .tab-inner-cont  { border: none; margin-bottom: 0; }
+.acc-tab h2.resp-accordion { border: none !important; }
+
+.acc-tab h2.resp-accordion .month { font-weight: 500; }
+.acc-tab h2.resp-accordion .amount { font-weight: 500; }
+
+
+/*added b*/
+.regi-wrap #mid-wrapper{ margin-bottom: 25px;margin-top: 25px;}
+
+.searchresults-rgt .search-desc{ width:60%;}
+.categories h2{ font-size:20px;}
+.categories h4{font-size:16px;min-height: 43px;}
+.cate-list ul li{margin-bottom:0;}
+.user-pic{ float:none; margin-top:0; top: 3px;}
+
+/*resource page css*/
+.mentors-page .page-banner .banner-detail p {font-size:16px; line-height:normal;}
+.whoweare-row {padding:0 15px 20px 15px;}
+.engage-mentors {padding:20px 0 0 0;}
+.engage-mentors > h2 {margin-bottom:15px; font-size:20px; text-align:left; padding-left:20px;}
+.engage-mentors-tabs .resp-tabs-container {padding-top:0px; padding-bottom:0px;}
+.engage-mentors-tabs h2.resp-accordion {text-align:left; margin-bottom:0px; float:left; width:100%; background:#f2f2f2 !important;}
+.engage-mentors-tabs h2.resp-tab-active { background-color:#fff !important;}
+.engage-mentors .resp-accordion span {float:left; width:72%; color: #3d3d3d;font-size: 16px;font-weight:700; line-height:30px;}
+.engage-mentors-tabs .tab-inner-cont h4 {font-size:20px; text-align:left; margin-bottom:10px;}
+.prep-ques-cont-lft {width:100%;}
+.prep-ques-cont-lft ul li span {width:90%;}
+.prep-ques-cont-lft ul li {margin-bottom:15px;}
+.engage-mentors .resp-tab-content {margin-bottom:0px;}
+.engage-mentors .resp-accordion i {background-size: 25px auto;float: left;height: 24px;width: 50px;}
+.engage-mentors .resp-accordion i.find-icon {background-size:35px auto; position:relative; top:4px;}
+.engage-mentors .resp-tab-active i.find-icon {background-size:35px auto; height:34px; background-position: 0 -24px;}
+.engage-mentors .resp-accordion i.ques-icon {background-size:25px auto; height:34px;}
+.engage-mentors .resp-tab-active i.ques-icon {background-size:25px auto; height:34px; background-position: 0 -36px;}
+
+.engage-mentors .resp-accordion i.signup-icon {background-size:31px auto;}
+.engage-mentors .resp-tab-active i.signup-icon {background-size:31px auto; height:34px; background-position: 0 -26px;}
+
+.engage-mentors .resp-accordion i.signup-icon {background-size:31px auto; margin:5px 0 0 0;}
+.engage-mentors .resp-tab-active i.signup-icon {background-size:31px auto; height:34px; background-position: 0 -26px;}
+
+.engage-mentors .resp-accordion i.connect-icon {background-size:25px auto; position: relative;top: 3px;}
+.engage-mentors .resp-tab-active i.connect-icon {background-size:25px auto; height:34px; background-position: 0 -25px;}
+
+.engage-mentors .resp-accordion i.gray-check-icon {background-size:31px auto; position: relative;top: 5px;}
+.engage-mentors .resp-tab-active i.gray-check-icon {background-size:31px auto; height:34px; background-position: 0 -25px;}
+.prep-ques-cont-rgt {width:100%; margin:0 0 15px 0; text-align:center;}
+.sign-btn-large {line-height:40px;}
+.our-mentors-sec {padding:20px 15px;}
+.our-ment-img {width:100%;}
+.out-ment-desc {width:100%; margin:15px 0 0 0;}
+.out-ment-desc h2 {font-size:20px; margin-bottom:8px;}
+.out-ment-desc p {font-size:16px; line-height:24px;}
+.our-mentors-sec .menters-row {margin-top:10px;}
+a.btn-make-ment {width:290px; min-width:inherit; padding:10px;}
+.make-connt {padding-top:10px;}
+.make-connt a h3 {font-size:18px;}
+.make-connt a p {margin-bottom:0px; font-size:15px;}
+.who-lft-col {width:100%;}
+.who-rgt-col {width:100%; margin-top:10px; text-align:center;}
+.who-lft-col p {font-size:16px; margin-bottom:10px;}
+.who-lft-col h2 {margin-bottom:10px; font-size:20px;}
+
+.resrc-rslt {padding:0 15px;}
+.resrc-rslt input[type="text"] {width:100%;}
+.btn-go-search {float:left; margin-top:10px;}
+
+
+/*resource page css*/
+.resource-list-cont-main {padding:0 15px; margin-top:20px;}
+ul.resource-menu {padding:0 15px;}
+ul.resource-menu li {width:100%;border:1px solid #808080; margin-top:-1px;}
+ul.resource-menu li:last-child {border:1px solid #808080; width:100%;}
+ul.resource-menu li a span {height:auto; padding: 9px 0;}
+ul.resource-menu {border-bottom:none; margin-bottom:10px;}
+ul.resource-list-cont li {width:100%; margin-bottom:30px;}
+.resrc-img {width:100%; margin:0; text-align:center; margin-bottom:10px;}
+.resrc-rgt-cont {width:100%; text-align:center;}
+.look-advice-block {margin-top:20px; padding:15px;}
+.look-adv-lft {width:100%; text-align:center;}
+.look-advice-block h2 {font-size:20px;}
+.look-advice-block p {font-size:16px; margin-bottom:15px;}
+.btn-connt-ment {line-height:normal; font-size:18px; padding:10px 15px; float:none;}
+.look-adv-rgt {width:100%; text-align:center;}
+
+/*my account page css*/
+.myaccount-page {padding:20px 15px;}
+.my-acnt-lft {width:100%;}
+.my-acnt-rgt {width:100%;}
+.my-acnt-cont.regi-wrap {margin-top:25px;}
+.my-acnt-cont.regi-wrap  .form-list {padding-top:0px;}
+.form-list.change-password, .regi-wrap .change-password.form-list li.fields .field:last-child {width:100%;}
+.my-acnt-cont.regi-wrap .form-list {padding-bottom:0px;}
+
+/*sitemap page css*/
+.sitemap-page {padding:5px 15px 20px;}
+.sitemap-lft {width:100%;}
+.sitemap-lft h1 {padding-left:0;}
+.sitemap-links {float:left; width:100%;}
+.sitemap-links > ul {width:100%; margin:0;}
+
+.sitemap-links > ul > li > ul li a {padding-left:25px;}
+.sitemap-rgt {width:100%; margin:20px 0; text-align:center;}
+
+/*about page css*/
+.about-page {padding-bottom: 5px;}
+.about-row {padding:0 15px 20px 15px;}
+.abut-lft-img{margin: 10px 25px 15px 0;}
+.abot-lft-col p { margin: 10px 0 17px;}
+
+}
+
+
+@media only screen and (max-width: 639px) {
+.page-banner { height: 160px; }
+.page-banner img {   margin: 0 -55%; } 
+
+/* Forumlist Page*/
+.forumlist-container .post-desc { margin-right: 0; width: 79%; }
+.forumlist-container article .update { float: left; text-align: left; margin-left: 73px; padding-left: 3.6vw; width: 84%; }
+.post-desc h3 { font-size: 18px; }
+.post-desc .author { font-size: 13px; }
+.forumlist-container h2 { font-size: 18px; }
+.forumlist-container article p { font-size: 15px;  padding-bottom: 8px;}
+.forumlist-container .btn-cmn { padding: 0 10px;}
+.post-desc .author { padding-bottom: 8px; }
+
+/* Mentoraccount Page*/
+.mentor-container .profile-pic { width: 100%;  padding-right: 0; }
+.mentor-container .profile-detail { width: 100%; min-height: inherit; }
+.personal-info h2 { font-size: 22px; }  
+
+.reviews-section h2{ font-size: 18px; }
+.reviews-section .ratingDiv { margin-bottom: 15px; }
+
+/* Mentordashboard Page*/
+.welcome-container .welcome-block { width: 100%; }
+.welcome-container .help { width: 100%; text-align: left; }
+.leads-container h2 { font-size: 18px; }
+.tabing-section ul.tabs { width: 100%; margin-bottom: 15px; }
+.tabing-section .filter-by { max-width: 100%; float: left; }
+.tabing-section ul.tabs li { padding: 1.2vw 5vw 1.3vw; }
+
+/* Accordian Panel*/
+.acc-tab .acc-title .month { font-size: 14px; }
+.acc-tab .acc-title .amount { font-size: 14px; }
+
+.acc-tab h2.resp-accordion .month { font-size: 13px; }
+.acc-tab h2.resp-accordion .amount { font-size: 13px; }
+
+.tab-inner-cont .sub-title span { font-size: 14px; }
+.tab-inner-cont .desc span { font-size: 14px; }
+
+.acc-tab h2.resp-accordion .resp-arrow {   margin-top: 3px;  border-left: 2.0vw solid transparent;
+border-right: 2.0vw solid transparent;   border-top: 2.4vw solid #6e7070;    }
+
+.acc-tab h2.resp-accordion.resp-tab-active .resp-arrow {      border-left: 2.0vw solid transparent;   border-right: 2.0vw solid transparent;
+border-bottom: 2.4vw solid #6e7070;   }
+
+
+/*added b*/
+.regi-wrap .fixed-wrapper{padding: 18px 25px;}
+.regi-wrap .regi-logo{ width:220px;}
+.regi-wrap .regi-logo{ margin-bottom:14px;}
+.regi-cont{ padding-top:16px;}
+.regi-cont .regi-cont-lt {width:100%; border-bottom:5px solid #d0091c; margin-bottom:20px;}
+.regi-cont .regi-cont-rt{ width:100%;border-bottom:5px solid #0030ab;}
+.regi-cont .regi-cont-text{min-height:inherit;}
+.regi-step{ padding-top:28px;}
+.regi-prog{ margin-left:0;}
+.regi-prog:before { background:#fff url(../images/regi-step-line-mob.png) repeat-y center top;height: 100%; top:0;}
+.regi-prog li.completed:before{background:#fff url(../images/regi-step-line-hover-mob.png) repeat-y center top; top:36px; height: 100%;}
+.regi-prog li.selected i:before{ left:-40px;}
+.regi-prog li i:before{ top:5px;}
+.regi-prog li i::after{ top:9px;}
+.regi-prog li { float: none; width:100%;margin:0 auto; height:100px; }
+.regi-prog li:last-child { width:100%; height:auto;}
+.regi-prog li span{ margin:0 auto; left:0; width:100%;}
+.regi-prog li i{ right:0; margin:0 auto;padding: 12px 0;height:44px; top:-8px;}
+
+.regi-wrap .form-list{ padding-top:25px; padding-bottom:23px;}
+.regi-wrap .form-list li{ margin-bottom:0;}
+.regi-wrap .form-list li.fields .field{ width:100%; padding-bottom:5px;}
+.regi-wrap .form-list li.fields .field.full-width {padding-bottom: 0;}
+.step4-cont{padding-top: 20px;padding-bottom: 0px;}
+.regi-wrap .form-list li.fields .field.top-padd{ margin-top:0;}
+
+.search-page{padding-bottom:10px;padding-top:25px;}
+.searchresults-rgt article{ margin-bottom:20px; padding-bottom:17px;}
+.searchresults-rgt .search-pic{display: block; float: none; margin: 0 auto; max-width: none; text-align: center;width:150px;}
+.searchresults-rgt .search-desc{ width:100%; text-align:center;}
+.search-col{ width:50%;margin-bottom: 10px;}
+.categories h4{ min-height:inherit; margin-bottom:4px;}
+.search-col:last-child{margin-bottom:25px}
+.search-desc h3{ font-size:18px;}
+.searchresults-rgt article p{ font-size:16px; line-height:24px;}
+.search-desc .author, .search-desc .author-post{font-size:14px;}
+.user-pic:hover ul{ right:24px;}
+.top-rgt .user-pic a{ padding:0;}
+.user-step3 .regi-prog li{ width:100%;}
+.user-step3 .regi-prog li:last-child{width:100%;}
+.user-step3 .stp3-rgt .lft-chckbx{margin-bottom:22px;}
+.user-step3 .user-stp3-rgt{ margin-top:25px; margin-bottom:23px;}
+.user-step3 .user-stp3-lft{ margin-top:0;}
+
+/*about page css*/
+.abut-lft-img{ width:100%;}
+
+
+}
+
+@media only screen and (max-width: 480px) { 
+.pager {   margin-bottom: 15px;  margin-top: 15px;  }
+.pager ul {  padding: 0 5px; }
+.pager ul li a { font-size: 14px; }
+.pager ul li {   font-size: 14px;  padding-right: 3px;  }
+.pager .btn-cmn {   line-height: 38px;  padding: 0 5px; font-size: 13px; }
+
+.page-banner { height: 140px; }
+.page-banner img {   margin: 0 -125%; } 
+
+/* Forumlist Page*/
+.forumlist-container .row.a-right { text-align: center; }
+.forumlist-container .btn-cmn {     font-size: 12px;  line-height: normal;  padding: 10px 5px;   text-align: center; } 
+.forumlist-container article  {  margin: 0 0 3vw;  padding: 0 0 2.6vw;  text-align: center; }
+.forumlist-container .profile-pic { display: inline-block;  float: none;  margin-right: 0; } 
+.forumlist-container .post-desc {    margin-right: 0;   width: 100%;}
+.forumlist-container article .update { text-align: center; margin-left: 0; padding-left: 0; width: 100%; }
+.forumlist-container .row.title-row { padding-bottom: 3vw; }
+
+/* Mentoraccount Page*/
+.profile-detail .personal-info {  border-bottom: 1px solid #e8e8e8; margin-bottom: 10px;  margin-top: 0;  padding-bottom: 10px;   width: 100%; }
+.profile-detail .personal-info p { margin-bottom: 0; }
+.profile-detail .ratingDiv p { text-align: left; }
+.profile-detail .ratingDiv { position: unset; width: 100%; float: left; min-height: 24px; height: auto; }
+.skill-section .row .desc p { font-size: 15px; }
+.skill-section .row label { font-size: 14px; padding-top: 3px; }
+.list-style li { font-size: 15px; }
+.reviews-section .review-desc p { font-size: 15px; line-height: 22px; }
+.personal-info h2 { font-size: 18px; }
+.reviews-section h2 { font-size: 16px; }
+.reviews-section .author-pic { padding-right: 15px; }
+
+.profile-detail .skill-section { margin-bottom: 20px; }
+
+/* Mentordashboard Page*/
+.tabing-section ul.tabs li { padding: 1.2vw 3vw 1.3vw; }
+.welcome-block h4 { font-size: 18px; }
+
+.regi-wrap h2{font-size:20px;}
+.regi-cont h3{font-size:16px;}
+.regi-cont p{font-size:14px;line-height: 22px;}
+.regi-wrap .form-list label.user-name, .regi-wrap .form-list li.fields .field.user-site div{font-size:16px;}
+.step4-cont p{ font-size:16px; line-height:24px;}
+
+.search-col{ width:100%;padding-right:0;}
+.search-results .form-list li, .search-results .form-list > li:last-child{ width:100%;margin-bottom:10px;}
+
+/* Accordian Panel*/
+.acc-tab .acc-title .month { font-size: 13px; }
+.acc-tab .acc-title .amount { font-size: 13px; }
+
+.acc-tab h2.resp-accordion .month { font-size: 12px; }
+.acc-tab h2.resp-accordion .amount { font-size: 12px; }
+
+.tab-inner-cont .sub-title span { font-size: 13px; }
+.tab-inner-cont .desc span { font-size: 13px; }
+
+
+/*added css d*/
+/*signin*/
+.frgt-row a{ float:left; margin-top: 10px; clear:both;}
+
+/*user-mentorselection*/
+.usr-sectn{ width: 232px;}
+.usr-sectn ul li{ margin-bottom:25px;}
+.usr-sectn ul li .mntr-bx{ height:100px; width:100px;}
+.mntr-bx > img { margin-top: 20px;}
+.usr-sectn ul li h3{ font-size:15px;}
+.mntr-bx  img{ height:50px;}
+
+
+/*user-registrationpopup*/
+.fb-login a{ font-size: 16px;}
+
+/*men-registration-step3*/
+.stp3-rgt .lft-chckbx{ width:100%;}
+.you-row span{float: left; margin-top: 10px; display:block; width:100%;}
+.brws-cl {float: left; margin-top: 15px; clear: both;}
+.regi-wrap .user-stp3-lft .form-list li.fields .field.user-site{ width:100%;}
+.regi-wrap .user-step3 .form-list li.fields .field.url-field{width:100%;}
+.regi-wrap .form-list li.fields.col-3 .field{ width:100%;padding-right:0;}
+
+}
+
+
+@media screen and (min-width:480px) and (max-width:767px) {
+/*men-registration-step3*/
+.stp3-rgt .lft-chckbx{ width:50%;}
+.you-row span{float: right; margin-top: 10px;}
+.brws-cl {float: right; margin-top: 0px; clear:none;}
+.frgt-row a{ float:right; margin-top: 5px; clear:none;}
+
+.resrc-rslt input[type="text"] {width:75%;}
+.btn-go-search {width:15%; margin-top:0px; float:right;}
+
+/*sitemap page css*/
+.sitemap-links > ul {width:45%; margin:0 5% 0 0;}
+
+}
+
+
+@media screen and (min-width:600px) and (max-width:767px) {
+
+/*forums detail page css*/
+.frums-dtl-img {margin-right: 20px;width: 73px; text-align:left;}
+.frums-dtl-cont {width:57%; text-align:center; margin:0; text-align:left;}
+.frums-dtl-rgt {margin: -20px 0 0;text-align: right;width: auto;}
+.reply-inner-forums {width:80%;}
+
+ul.resource-menu li {width:25%;border:1px solid #808080; margin-top:-1px; border-right:none;none:}
+ul.resource-menu li:last-child {border-right:1px solid #808080; width:25%;}
+ul.resource-menu li a span {height:71px; padding:0;}
+.resrc-img {width: 29%; margin: 0 3% 0 0;}
+.resrc-rgt-cont {text-align: left;width: 68%;}
+
+
+}
+
+@media screen and (min-width:640px) and (max-width:767px) {
+/*added b*/
+.regi-cont .regi-cont-text {min-height: 226px;}
+.resrc-rslt input[type="text"] {width:80%;}
+
+}
+
+@media screen and (min-width:768px) and (max-width:1169px) {
+.logo-btn-row {padding:0 15px 10px 15px;}
+.logo {width:260px; margin-top:15px;}
+.top-rgt {margin-top:20px;}
+.header-nav {padding:0 15px;}
+.rgt-search {width:180px;}
+.header-nav ul li {margin-right:13px;}
+.header-nav ul li a{font-size:13px;}
+.home-abt-sec {padding:15px;}
+.home-atcl-sec {padding:20px 15px;}
+.home-atcl-sec h1 {font-size:25px;}
+.resp-tabs-list li {width:25%; text-align:center; padding:23px 10px;}
+.resp-tab-active {padding:23px 10px !important;}
+.resp-tabs-list li {font-size:16px;}
+.emp-img-lft {width:30%;}
+.emp-rgt-cont {width:67%;}
+.emp-col {width:100%; margin:0 0 15px 0;}
+.emp-dtl-col-row .btn-center-div {text-align:left; margin-top:0px;}
+.find-rgt-ment-sec {padding:20px 15px;}
+.find-mnt-lft {width:40%;}
+.find-mnt-lft h2 {font-size:22px;}
+.find-mnt-lft h1 {font-size:38px;}
+.find-mnt-lft h1 span {font-size:33px;}
+.find-ment-rgt {width:58%; margin-left:2%;}
+.find-ment-rgt p {margin-top:0px;}
+.menters-row h2 {font-size:17px;}
+.menters-row ul li a {font-size:14px;}
+.helpus-sec {padding:20px 15px;}
+.help-img-lft {width:40%;}
+.help-rgt {width:58%; margin-left:2%; margin-top:0px;}
+.help-rgt h2 {font-size:20px; margin-bottom:5px;}
+.helpus-sec .btn-center-div {margin-top:10px;}
+.our-insp-mission {padding:20px 15px;}
+.our-insp-col p {width:90%;}
+footer {padding:20px 15px 15px 15px;}
+.footer-lft {width:70%;}
+.footer-lft ul li a {font-size:14px;}
+.footer-lft ul li {margin-right:10px;}
+.footer-rgt {margin-top:8px;}
+#mid-wrapper {margin-top:131px;}
+
+/*artical detail page css*/
+.artical-page {padding:20px 0 0 0;}
+.artical-row-1 {padding:0 15px;}
+.articale-lft {width:65%;}
+.articale-rgt {width:31%;}
+.contct-mentor-box h4 {font-size:15px;}
+.articale-lft h1 {font-size:20px;}
+.red-social a {margin-left:2px;}
+.artcl-share-row strong {margin-right:5px;}
+.about-artcl-list h2 {font-size:20px;}
+.contct-mentor-box {padding:20px; margin-bottom:30px;}
+ul.arrow-list-cmn li, .editer-style ul li {margin-bottom:10px;}
+.editer-style ul li {font-size:16px;}
+.editer-style ol li {font-size:16px; margin-bottom:10px;}
+ul.arrow-list-cmn li a, .tips-col ul li a {font-size:16px;}
+.artcl-dtl-cont img {margin:0 20px 10px 0;}
+.tips-rescrc-row {padding:20px 15px 0 15px;}
+.editer-style p {font-size:16px; line-height:24px;}
+
+/*contact page css*/
+.contact-lft {width:40%;}
+.contact-rgt {width:56%;}
+
+/*forums detail page css*/
+.frums-dtl-img {margin-right: 20px;width: 73px; text-align:left;}
+.frums-dtl-cont {width:63%; text-align:center; margin:0; text-align:left;}
+
+/*About page css*/
+.whoweare-row {padding:0 15px 20px 15px;}
+.who-lft-col {width:60%;}
+.who-rgt-col {width:37%;}
+.who-lft-col p {margin-bottom:10px;}
+.engage-mentors-tabs .resp-tabs-list {width:100%; padding-left:15px; padding-right:15px;}
+.engage-mentors {padding:25px 0 0 0;}
+.engage-mentors-tabs .resp-tabs-list li {width:17%; margin-right:3%;}
+.engage-mentors-tabs .resp-tabs-list li:after {display:none;}
+.engage-mentors-tabs .resp-tabs-container {padding:40px 15px 20px 15px;}
+.prep-ques-cont-lft ul li span {width:94%;}
+.prep-ques-cont-rgt {margin-right:0px;}
+.our-mentors-sec {padding:20px 15px;}
+.our-ment-img {width:100%;}
+.out-ment-desc {width:100%; margin-top:15px;}
+a.btn-make-ment {padding:20px 0 10px 0;}
+
+/*resource page css*/
+.resource-list-cont-main {padding:0 15px;}
+ul.resource-list-cont li {width:100%; margin-bottom:20px;}
+.resrc-rgt-cont {width:74%;}
+.look-advice-block {padding:25px 15px; margin-top:20px;}
+.look-adv-lft {width:60%;}
+.look-adv-rgt {width:35%; float:right; margin-top:10px;}
+.btn-connt-ment {line-height:normal; font-size:18px; padding:15px 15px;}
+.resrc-rslt {padding:0 15px;}
+.resrc-rslt input[type="text"] {width:82%;}
+.btn-go-search {width:15%;}
+
+/*added css d*/
+/*user-registrationpopup*/
+.frm-login{ width:417px;}
+
+/*my account page css*/
+.myaccount-page {padding:20px 15px;}
+.my-acnt-lft {width:35%;}
+.my-acnt-rgt {width:60%;}
+.form-list.change-password, .regi-wrap .change-password.form-list li.fields .field:last-child {width:90%;}
+.my-acnt-cont.regi-wrap .form-list {padding-bottom:0px;}
+.aditional-info .stp3-rgt {width:100%;}
+.page-banner h1 {font-size:30px;}
+
+/*sitemap page css*/
+.sitemap-page { padding:0 15px 20px 15px;}
+.sitemap-links > ul{width: 28%;  margin: 0 5% 0 0;}
+
+
+/*about page css*/
+.about-row {padding:0 15px 20px 15px;}
+
+}
+
+
+@media screen and (min-width:1024px) and (max-width:1169px) {
+.header-nav ul li a {font-size:16px;}
+.header-nav ul li {margin-right:23px;}
+.rgt-search {width:250px;}
+.find-mnt-lft {width:29%;}
+.find-ment-rgt {width:69%;}
+.resp-tabs-list li {font-size:20px;}
+.menters-row ul li a {font-size:16px;}
+.menters-row h2 {font-size:20px;}
+.footer-rgt {margin-top:0px;}
+.frums-dtl-cont {width:73%;}
+
+.regi-cont .regi-cont-text {min-height: 160px;}
+.our-ment-img {width:50%;}
+.out-ment-desc {margin-top:0px; width:47%;}
+
+/*resource page css*/
+ul.resource-list-cont li {width:48%; margin-bottom:20px;}
+.resrc-img {width:130px;}
+.resrc-rgt-cont {width:68%;}
+.look-adv-lft {width:65%;}
+.look-adv-rgt {width:30%; float:right; margin-top:10px;}
+.btn-connt-ment {line-height:normal; font-size:20px; padding:15px 15px;}
+
+/*men-registration-step3*/
+.stp3-rgt{width:48%;}
+.stp3-lft{ width:48%; margin-bottom: 20px;}
+.stp3-rgt .lft-chckbx{width:50%;}
+/*user-mentorselection*/
+.usr-sectn{ width: 340px;}
+.regi-wrap .user-step3 .form-list li.fields .field.url-field{width: 47%;}
+
+/*sitemap page css*/
+.sitemap-links > ul{ width: 26%; padding: 0 0 0 1%;  margin: 0 7% 0 0;}
+
+}
